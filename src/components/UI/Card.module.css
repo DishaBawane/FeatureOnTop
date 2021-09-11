@@ -1,5 +1,6 @@
 .card {
     height: 250px;
+    /* height:object-fit; */
     width: 573px;
     background: #c4c4c4;
     margin: 2em auto;

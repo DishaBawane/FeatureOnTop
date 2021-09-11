@@ -1,0 +1,20 @@
+.votetracker{
+    display:flex;
+    flex-direction: column;
+ 
+  }
+  
+  /* .addvote {
+    width: 70px;
+    height: 54px;
+  } */
+   
+  .totalvotes {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    /* padding-bottom: 2em; */
+  }
+  

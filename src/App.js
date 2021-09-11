@@ -6,10 +6,14 @@ import Header from "./components/Layout/Header";
 
 function App() {
   const [featuresList, setFeaturesList] = useState([]);
-  const addFeatureHandler = (newFeature) => {
+
+
+  const addFeatureHandler = (newFeature,newDate) => {
+ 
     setFeaturesList((prevFeaturesList) => {
-      return [...prevFeaturesList,{feature:newFeature}]
-    //  return [{...prevFeaturesList,feature:newFeature}]
+   
+
+      return [...prevFeaturesList,{feature:newFeature,date:newDate,id:Math.random().toString()}];
     });
   };
   return (
